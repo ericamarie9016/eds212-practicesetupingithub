@@ -1,0 +1,35 @@
+---
+title: "day-4-exploring-data"
+format: html
+editor: visual
+---
+
+```{r}
+#| warning: false
+library(tidyverse)
+library(palmerpenguins)
+library(GGally)
+library(skimr)
+```
+
+## hashpipe to hide details in render
+
+## Exploratory Data Viz
+
+Check out the data:
+
+```{r}
+#| include: false
+
+# Column names
+names(penguins)
+
+# Dimensions
+dim(penguins)
+
+# First 6 lines
+head(penguins)
+
+# Last 6 lines
+tail(penguins)
+```
